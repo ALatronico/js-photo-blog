@@ -41,7 +41,7 @@ function printCard(foto){
   const {title, url} = foto;
   return document.querySelector('.row').innerHTML += 
       `<div class="col">
-          <div class="card p-3 my-1">
+          <div class="card p-4 my-2">
             <img src="assets/img/pin.svg" alt="Pin rosso">
             <img src="${url}" class="card-img-top" alt="Placeholder">
             <div class="card-body py-1">
